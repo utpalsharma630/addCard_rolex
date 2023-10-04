@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Card2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css">
+</head>
+<body>
+    <div class="w-10/12 bg-gray-300 mx-auto p-3 ">
+        <h2 class="text-center mt-3 py-4 text-2xl font-semibold">Rolex</h2>
+        <div class="w-10/12  mx-auto lg:flex gap-5 px-3 justify-between rounded bg-red-300">
+            <input id="name" class="w-full sm:w-56 my-2 px-3 rounded " type="text" placeholder="Please your product name">
+            <input id="price" class=" w-full sm:w-56 my-2 px-3 rounded " type="number" placeholder="Please your product price ">
+            <button id="submit" class="btn bg-green-300 rounded my-2 px-2">submit</button>
+        </div>
+        <div class="w-10/12 mx-auto bg-lime-300 rounded my-5">
+            <h2 class="text-center mt-3 py-3 text-2xl font-semibold">To Do</h2>
+            <ul class="grid grid-cols-3 text-center py-4 " id="list">
+
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
